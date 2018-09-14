@@ -19,6 +19,12 @@ namespace SudokuSolver
             //Console.ReadKey();
         }//Main
 
+        static void CountRows()
+        {
+
+        }
+
+
         static void PrintBoard(int[,] boardArray)
         {
             for (int col = 0; col < 9; col++) {
